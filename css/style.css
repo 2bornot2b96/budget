@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Lora&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9f9;
+}
+
+/* le header se concentre sur l'image de fond, dimensions et positionnement  */
+header {
+    margin: 0;
+    padding: 0px;
+    background-image: url(../banniere1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+    display: grid;
+   
+   
+}
+
+
+/* La banniere contient le titre et les boutons de navigation */
+.banniere {
+   text-align: center;
+   margin-top: 50px;
+   
+}
+
+/* Le titre de la banniere */
+.titre {
+    font-family: 'Abhaya Libre', serif;
+    
+    
+}
+
+
+/* les dimensions, positionnement et police des boutons de navigation */
+.navBouton {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    text-shadow: 1px 1px 2px rgb(104, 104, 104);
+    
+    
+}
+
+/* les évenements des boutons liées au survol de la souris */
+.depense:hover {
+    color: rgb(245, 128, 128);
+    cursor: pointer;
+}
+
+
+.epargne:hover {
+    color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+.revenu:hover {
+    color: rgb(135, 245, 168);
+    cursor: pointer;
+}
+
+.selecteur {
+   text-align: center;
+}
+
+/* barre de navigation */
+
+.sidebar {
+    width: 500px;
+}
+
+.bloc-depense {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc-revenu {
+    display: flex;
+    flex-direction: row;
+}
+
+.disparition {
+    display: none;
+}
+/* graphique */
+
+td {
+    border: 1px solid black;
+}
+
+.oups thead {
+    background-color: rgb(59, 172, 187);
+    
+}
+
+.oups tbody {
+    background-color: rgb(59, 187, 149);
+    
+}
+
+.youpi thead {
+    background-color: rgb(230, 103, 103);
+    
+}
+
+.youpi tbody {
+    background-color: rgb(202, 159, 94);
+    
+    
+}
+
+.chart {
+   
+    width: 400px;
+    
+}
+
+/*modal*/
+
+#modal{
+    background-color: whitesmoke;
+    border-radius: 10px 10px ;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    transition: 0.7s;
+}
+
+table {
+    width: 100%;
+}
